@@ -70,9 +70,17 @@ RUN !!
 ./mini-faster-online-status.sh
 ```
 
-I KNOW IT'S a MAGIC !!
+## Give script to Cron-Job for more efficient mechanics.
 
+I'm hoping if you are already cloned this project in your home directory. for example, /home/your-username/SITE-STATUS-CHECKER
 
+```bash
+
+*/5 * * * * $HOME/SITE-STATUS-CHECKER/check-online-status.sh
+
+```
+
+---------------------------------------------------------------------------------------
 ## HTTP Status Codes [More About Them Here](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html)
 This section will tell you what each code from the software means.
 ## 10.2 Successful 2xx
