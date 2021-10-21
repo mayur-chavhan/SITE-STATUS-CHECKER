@@ -11,31 +11,46 @@ git clone https://github.com/mayur-chavhan/SITE-STATUS-CHECKER.git
 
 ```
 
-```git 
+```bash 
 
 cd SITE-STATUS-CHECKER
 
 ```
 
-Copy file domain-list-sample.txt to domain-list.txt
+Update NOTIFY_TO='user@gmail.com' to your own email address.
+
+
+Copy sample files domain-list-sample.txt and email-list-sample.txt to domain-list.txt and email-list.txt, Respectively.
 
 ``` bash
 
 cp domain-list-sample.txt domain-list.txt
 
+cp email-list-sample.txt email-list.txt
+
 ```
 
-Same copy email-list-sample.txt to email-list.txt and Update email-list.txt file with your alert email address,
+Add some domains inside domain-list.txt file,
+
+For example,
+
+```list
+google.com
+facebook.com
+techwhale.in
+pikachu.com
+
+```
+
+Update email-list.txt file with your alert email address,
 
 ```bash
-
-cp email-list-sample.txt email-list.txt
 
 vim email-list.txt
 
 ```
 
-RUN 
+RUN !!
 
 ```bash
 
@@ -44,10 +59,19 @@ RUN
 ```
 
 
-### More Faster Version, HTTP Status Checker bash script
+### Faster Script, HTTP Status Checker bash script
 
 | To use a different similar tool i have built quicker version of site status checker |
 |-------------------------------------------------------------------------------------|
+
+RUN !!
+
+```bash
+./mini-faster-online-status.sh
+```
+
+I KNOW IT'S a MAGIC !!
+
 
 ## HTTP Status Codes [More About Them Here](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html)
 This section will tell you what each code from the software means.

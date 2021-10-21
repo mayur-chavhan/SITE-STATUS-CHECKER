@@ -4,9 +4,9 @@
 #
 set -u
 
-# Replace below user@gmail.com to your email address
+# Update inside email-list.txt file to your email address
 
-NOTIFY_TO='user@gmail.com'
+NOTIFY_TO=./email-list.txt
 
 		printStyle="%-25s %-40s %-30s %-20s\n"
 		printTitle=$(printf "${printStyle}" "   HTTP Status" "URL" "Status Message")
