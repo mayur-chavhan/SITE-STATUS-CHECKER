@@ -24,6 +24,6 @@ function ONLINE_CHECK {
 # checking url loop
 while read WEB_URL; do
   ONLINE_CHECK $WEB_URL 
-done < $DOMAIN_LIST | column -t
+done < $DOMAIN_LIST 
 
 
